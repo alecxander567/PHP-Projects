@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    color: white;
+    background: orangered;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    background: #0A0502;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 5px white;
+    margin-top: 50px;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.input1{
+    padding: 10px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 10px;
+    top: 50px;
+    left: 90px;
+}
+
+.input2{
+    padding: 10px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 10px;
+    top: 70px;
+    left: 90px;
+}
+
+.operator{
+    padding: 10px;
+    background: orangered;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    width: 90px;
+    position: relative;
+    top: 140px;
+    left: -200px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.operator:hover{
+    background: grey;
+}
+
+.submit{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    background: orange;
+    border: none;
+    position: relative;
+    top: 98px;
+    left: 180px;
+    border-radius: 10px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background: grey;
+}
+
+.output{
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    text-align: right;
+    background: transparent;
+    position: relative;
+    top: 120px;
+    width: auto;
+    height: auto;
+
+}
+
+.clear{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: red;
+    font-weight: 900;
+    position: relative;
+    top: 100px;
+    left: 190px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.clear:hover{
+    background: grey;
+}
