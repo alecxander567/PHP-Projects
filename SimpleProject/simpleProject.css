@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(140deg, rgba(41, 0, 101, 0.932), rgba(146, 2, 122, 0.959), rgba(232, 1, 17, 0.534));
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+form{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+    box-shadow: 0 4 20px rgb(0, 0, 0 , 0.2);
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin-top: 90px;
+    margin-left: 60px;
+ }
+.cont{
+    display: grid;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+button{
+    background: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    width: 100%;
+}
+.output{
+    background-color: rgba(255, 255, 255, 0.5);  
+    padding: 20px;
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+}
